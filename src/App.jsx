@@ -6,21 +6,13 @@ export const App = () => {
 
   const addOne = () => {
     setCount(currentCount => {
-      let currentCountCopy = currentCount;
-
-      currentCountCopy += 1;
-
-      return currentCountCopy;
+      return currentCount + 1;
     });
   };
 
   const add100 = () => {
     setCount(currentCount => {
-      let currentCountCopy = currentCount;
-
-      currentCountCopy += 100;
-
-      return currentCountCopy;
+      return currentCount + 100;
     });
   };
 
